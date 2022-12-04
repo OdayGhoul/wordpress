@@ -1,0 +1,2 @@
+2022-12-04T06:17:59+00:00 CRITICAL Out of memory (allocated 83886080) (tried to allocate 32768 bytes) in C:\xampp\htdocs\ghoul\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-home-page-watcher.php on line 1
+

@@ -1,0 +1,29 @@
+2022-12-02T18:16:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ghoul\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ghoul\wp-includes\script-loader.php(2163): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\ghoul\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(222): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\ghoul\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(92): UR_Admin_Welcome::setup_wizard_footer()
+#5 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(308): UR_Admin_Welcome::welcome_page('')
+#6 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\ghoul\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\ghoul\wp-admin\admin.php(175): do_action('admin_init')
+#9 C:\xampp\htdocs\ghoul\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php on line 308
+
+2022-12-02T18:16:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ghoul\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ghoul\wp-includes\script-loader.php(2163): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\ghoul\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(222): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\ghoul\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(92): UR_Admin_Welcome::setup_wizard_footer()
+#5 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(308): UR_Admin_Welcome::welcome_page('')
+#6 C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\ghoul\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\ghoul\wp-admin\admin.php(175): do_action('admin_init')
+#9 {main}
+  thrown in C:\xampp\htdocs\ghoul\wp-includes\class-wp-hook.php on line 308
+
